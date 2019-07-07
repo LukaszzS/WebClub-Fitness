@@ -1,0 +1,45 @@
+footer {
+    background: black;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    color: #BDBDBD;
+    text-align: center;
+    padding-top: 5px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.footer-container i {
+    color: #D35400;
+}
+
+.footer-container a:nth-child(2) {
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+.footer-container span {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    color: #BDBDBD;
+    font-size: 80%;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-container span {
+        font-size: 130%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer-container span {
+        font-size: 150%;
+        cursor: pointer;
+    }
+
+}

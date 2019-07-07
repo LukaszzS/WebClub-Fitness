@@ -1,0 +1,81 @@
+#company {
+    position: relative;
+    width: 90%;
+    min-height: 80vh;
+    background-image: url(../img/galeria.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 5% auto;
+    opacity: 0.2%;
+}
+
+.company-container h1 {
+    color: #D35400;
+    text-align: center;
+    text-decoration: overline;
+    padding: 16px 0;
+    font-size: 200%;
+}
+
+.pagearea-inner {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 96%;
+    margin: 0 auto
+}
+
+.fourbox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.fourbox .thumbbx {
+    font-size: 24px;
+}
+
+.fourbox a {
+    text-decoration: none;
+}
+
+.pagemore a {
+    text-decoration: none;
+}
+
+.pagemore {
+    color: #D35400;
+}
+
+.fourbxcontent {
+    padding-top: 30px;
+    line-height: 140%;
+}
+
+.fourbox .thumbbx {
+    text-align: center;
+    width: 46px;
+    height: 10px;
+    margin: 0 auto;
+    color: #D35400;
+}
+
+@media screen and (min-width: 768px) {
+    #company {
+        min-height: 100vh;
+    }
+    .fourbox {
+        font-size: 20px;
+    }
+    .fourbox .thumbbx {
+        font-size: 30px;
+    }
+
+}
+@media screen and (min-width: 992px) {
+
+}

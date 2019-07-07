@@ -1,0 +1,19 @@
+#gallery {
+    width: 90%;
+    min-height: 80vh;
+    background: #BDBDBD;
+    margin: 0 auto;
+}
+
+.gallery-container h1 {
+    color: #D35400;
+    text-align: center;
+    text-decoration: overline;
+    padding: 16px 0;
+    font-size: 200%;
+}
+@media screen and (min-width: 768px) {
+    #gallery {
+        min-height: 100vh;
+    }
+}

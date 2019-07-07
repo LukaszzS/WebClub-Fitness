@@ -1,0 +1,99 @@
+.contact-container .sectioncontent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.box-label:nth-child(-n+2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.box-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: #D35400;
+}
+
+.btn-footer {
+    padding: 0 15px;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    background-color: black;
+    color: #D35400;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-radius: 10px;
+}
+
+.contact-container h1 {
+    color: #D35400;
+    text-align: center;
+    text-decoration: overline;
+    padding: 16px 0;
+    font-size: 200%;
+}
+
+.sectioncheckbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.sectioncheckbox input {
+    width: 20px;
+    height: 20px;
+    color: #D35400;
+}
+
+.box-label input, textarea {
+    font-size: 85%;
+    margin: 0 0 5px 5px;
+}
+
+.sectioncheckbox p {
+    color: #D35400;
+}
+
+@media screen and (min-width: 768px) {
+    #contact{
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+    }
+    .sectioncheckbox {
+        flex-wrap: unset;
+    }
+
+    .sectioncheckbox input {
+        width: 30px;
+        height: 30px;
+    }
+
+    .box-label input, textarea {
+        font-size: 20px;
+        margin: 0 0 10px 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+   .box-label input, textarea {
+        font-size: 24px;
+    }
+    .sectioncheckbox {
+        margin: 50px 0;
+    }
+    .sectioncheckbox p {
+        font-size: 22px;
+    }
+}
